@@ -3,11 +3,11 @@ import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
 
-// import conversationsRouter from './routes/conversations.routes.js';
-// import tasksRouter from './routes/tasks.routes.js';
-// import decisionsRouter from './routes/decisions.routes.js';
-// import searchRouter from './routes/search.routes.js';
-// import peopleRouter from './routes/people.routes.js';
+import conversationsRouter from './routes/conversations.routes.js';
+import tasksRouter from './routes/tasks.routes.js';
+import decisionsRouter from './routes/decisions.routes.js';
+import searchRouter from './routes/search.routes.js';
+import peopleRouter from './routes/people.routes.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
