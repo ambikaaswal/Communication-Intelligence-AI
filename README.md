@@ -1,4 +1,4 @@
-# Project Communication Intelligence System
+# Project Project Communication Intelligence AI
 
 Turns messy, unstructured project communication — WhatsApp exports, meeting
 transcripts, notes — into structured, searchable project data: tasks with
@@ -49,7 +49,7 @@ and it becomes permanent, searchable project memory.
 | Styling | Tailwind CSS |
 | Database | PostgreSQL, hosted on [Neon](https://neon.tech) |
 | DB access | raw `pg` — no ORM |
-| LLM extraction | Google Gemini (`gemini-2.0-flash`) |
+| LLM extraction | Google Gemini (`gemini-3.6-flash`) |
 | File parsing | `mammoth` (`.docx`), native `fs` (`.txt`) |
 
 No TypeScript on the backend, no Prisma — kept deliberately simple to move
